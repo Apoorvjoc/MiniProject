@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.toggle-nav {
+  background: pink;
+  border-right: 2px solid red;
+  color: wheat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  z-index: 100;
+  transform: translateX(-100);
+}
+.toggle-nav .logo {
+  padding: 30px 0;
+  text-align: center;
+}
+.toggle-nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+.toggle-nav ul li {
+  border-bottom: 2px dotted white;
+  padding: 20px;
+}
+.toggle-nav ul li:first-of-type {
+  border-top: 2px dotted white;
+}
+.toggle-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.toggle-nav ul li a:hover {
+  text-decoration: underline;
+}
